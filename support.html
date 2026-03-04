@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Puzzle Game — Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Support page for Puzzle Game." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Puzzle Game — Support" />
+  <meta property="og:description" content="Help, FAQs, troubleshooting, and contact information for Puzzle Game." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a;
+      --muted: #475569;
+      --card: #f8fafc;
+      --link: #0ea5e9;
+      --border: #e2e8f0;
+      --radius: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --fg: #e5e7eb;
+        --muted: #9aa4b2;
+        --card: #0f172a;
+        --link: #38bdf8;
+        --border: #1f2937;
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      line-height: 1.25;
+      font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.98rem;
+    }
+    nav.toc {
+      margin: 24px 0 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+    }
+    nav.toc strong { display: block; margin-bottom: 6px; }
+    nav.toc ul {
+      margin: 0;
+      padding-left: 18px;
+      columns: 2;
+      column-gap: 28px;
+    }
+    @media (max-width: 640px) { nav.toc ul { columns: 1; } }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      margin: 18px 0;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    ul { margin: 0.5rem 0 0.25rem 1.25rem; }
+    a { color: var(--link); text-underline-offset: 3px; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+    }
+    .callout {
+      border-left: 3px solid var(--border);
+      padding-left: 12px;
+      color: var(--muted);
+    }
+    footer {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 28px;
+    }
+    @media print {
+      body { background: #fff; }
+      header, section, nav.toc { break-inside: avoid; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <h1>Puzzle Game — Support</h1>
+      <p class="subtitle"><em>Last updated: <span id="updated"></span></em></p>
+      <p class="subtitle">
+        Welcome to the support page for Puzzle Game. If you need help, have a question, or want to report an issue, you can find answers below or contact us directly.
+      </p>
+      <p class="subtitle">
+        For privacy details, see <a href="./privacy.html">Privacy Policy</a>.
+      </p>
+    </header>
+
+    <nav class="toc" aria-label="Table of Contents">
+      <strong>Contents</strong>
+      <ul>
+        <li><a href="#about">About the Game</a></li>
+        <li><a href="#quick-help">Quick Help</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h2>About the Game</h2>
+      <p>
+        Puzzle Game is a simple, relaxing puzzle experience designed to keep your mind active. Solve levels, improve your logic, and enjoy quick sessions anytime.
+      </p>
+      <p class="callout">
+        Tip: Keeping the app updated ensures you get the latest levels, fixes, and performance improvements.
+      </p>
+    </section>
+
+    <section id="quick-help">
+      <h2>Quick Help</h2>
+      <ul>
+        <li><strong>App crashes or won’t open:</strong> Update the app, restart your device, and try again.</li>
+        <li><strong>Stuck on a level:</strong> Try different strategies, take a short break, or look for hidden patterns.</li>
+        <li><strong>Ads or rewards not working:</strong> Check your internet connection and reopen the app.</li>
+        <li><strong>Sound not playing:</strong> Check device silent mode and in-game sound settings.</li>
+      </ul>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>Do I need an account?</strong> No. Puzzle Game does not require an account to play.</li>
+        <li><strong>Does the game work offline?</strong> Core gameplay usually works offline, but ads/rewards may require internet.</li>
+        <li><strong>How do I reset my progress?</strong> If the app includes a “Reset Progress” option, you can find it in Settings. Otherwise, reinstalling may remove local progress.</li>
+        <li><strong>Can I suggest new levels or features?</strong> Yes. Send us your ideas via email.</li>
+      </ul>
+    </section>
+
+    <section id="troubleshooting">
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li><strong>Performance issues:</strong> Close other apps and free up device storage.</li>
+        <li><strong>Game freezes:</strong> Force close the app and reopen it.</li>
+        <li><strong>Purchase issues (if applicable):</strong> Make sure you are signed in to the correct store account and try “Restore Purchases”.</li>
+      </ul>
+      <p class="callout">
+        When contacting support, please include: <code>device model</code>, <code>OS version</code>, <code>app version</code>, and a short description of what happened.
+      </p>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <p>
+        If you have questions or need help, email us at:
+        <a href="mailto:support@yourapp.com?subject=Puzzle%20Game%20Support">support@yourapp.com</a>
+      </p>
+      <p class="callout">
+        We usually respond within 24–48 hours.
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Puzzle Game · This support page is provided for assistance and transparency.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // You can hardcode this if you prefer:
+    document.getElementById('updated').textContent = "March 04, 2026";
+  </script>
+</body>
+</html>
